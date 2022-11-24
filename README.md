@@ -1,7 +1,8 @@
 # Aventuras-fantasticas
 
-<html>
-<style="text-align:center;">
+<h1 align="center">
+📄<br>README Template
+</h1>
 
 Aventuras fantasticas é um projeto em HTML, CSS e Javascript.
 
