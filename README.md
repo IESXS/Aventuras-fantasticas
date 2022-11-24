@@ -1,3 +1,4 @@
+<h1 align="center">
 # Aventuras-fantasticas
 
 <h3 align="center">
@@ -14,7 +15,7 @@ uma alternativa aos jogos de RPG que exige um grupo de pessoas para jogar.
 </h3>
 
 <hr>
-<div style="align: center;">
+<div align="center">
 <image src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
 <image src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 <image src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
