@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+           <link rel="stylesheet" href="css/rpg_template.css">   
+        <title>Aventuras Fantásticas</title>
+        <p>
+            <a href="/other-html/mapas/mapa12.html" target="_blank">Abrir Mapa</a>
+            <a href="/other-html/olhar/olhar_12.html" target=blank"_blank">Olhar o lugar</a>
+       </p>
+
+
+   <script>
+      var sites = [
+          'other-html/actions/pulo_aposento12_var1.html',
+          'other-html/actions/pulo_aposento12_var2.html',
+          'other-html/actions/pulo_aposento12_var3.html',
+      ];
+  
+      function randomSite() {
+          var i = parseInt(Math.random() * sites.length);
+          location.href = sites[i];
+      }
+  </script>
+</head>
+
+<body>
+   <H1> </H1>
+   <img src="images/cenas/12.png"><br>
+   <p>
+    Depois da porta, um estreito caminho de pedra leva até um grande e redondo fosso, que vai até onde a vista pode alcançar e continua na escuridão mais adiante.<br>
+Olhando as paredes do fosso, você pode ver outro caminho, parecido com aquele que está diante de você, que
+vai até outra porta.<br>
+   </p>
+
+  
+   <a href="#" onclick="randomSite();">Tentar Pular</a><br>
+   <a href="/other-html/aposentos/Trushbeard.html">Voltar</a><br>
+</body>
+
+</html>

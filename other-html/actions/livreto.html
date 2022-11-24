@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+           <link rel="stylesheet" href="css/rpg_template.css">   
+        <title>Aventuras Fantásticas</title>
+        <p>
+                <a href="/other-html/mapas/mapa16.html" target="_blank">Abrir Mapa</a>
+                
+                <script>
+                    var sites = [
+                        'other-html/actions/livro_var1.html',
+                        'other-html/actions/livro_var2.html',
+                        'other-html/actions/livro_var3.html',
+                        'other-html/actions/livro_var4.html',
+                    ];
+                
+                    function randomSite() {
+                        var i = parseInt(Math.random() * sites.length);
+                        location.href = sites[i];
+                    }
+                </script>
+              </p>
+       </head>
+       
+       <body>
+          <H1> </H1>
+          <img src="images/cenas/16.png"><br>
+   <p>
+        A não ser por uma mesa encostada na parede norte, o
+        aposento se encontra vazio. <br>
+        Duas velas, fixadas na mes-
+        ma parede da mesa, iluminam o aposento.<br>
+         Há sobre ela
+        um livro com capa de couro.<br>
+         Não existe outra porta no
+        aposento, somente aquela pela qual você entrou.<br> 
+   </p>
+   <a href="#" onclick="randomSite();">Ler o livro</a>
+   <a href="/other-html/aposentos/aposento15.html">voltar</a><br>
+</body>
+
+</html>

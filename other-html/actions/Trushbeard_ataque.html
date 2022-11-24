@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+        
+        <script>
+                var sites = [
+                    '/other-html/ataques/trushbeard_ataque_var1.html',
+                    '/other-html/ataques/trushbeard_ataque_var2.html',
+                    'other-html/ataques/trushbeard_ataque_var3.html',
+                ];
+            
+                function randomSite() {
+                    var i = parseInt(Math.random() * sites.length);
+                    location.href = sites[i];
+                }
+            </script>
+               
+
+<head> 
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="css/rpg_template.css">  
+        <title> Trushbeard, o Anão</title>
+</head>
+
+<body>
+   <H1> </H1>
+   <p>
+Você está prestes a atacar o Anão Trushbeard, tem certeza dessa ação?
+
+   </p>
+
+   <a href="/other-html/actions/Trushbeard_conversa.html">Falar com o anão</a> <br>
+   <a href="#" onclick="randomSite();">Atacar o Anão</a> 
+</body>
+
+</html>

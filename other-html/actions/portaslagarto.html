@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+     <script>
+          var sites = [
+              'other-html/actions/ataque_lagartao_var1.html',
+              'other-html/actions/ataque_lagartao_var2.html',
+              'other-html/actions/ataque_lagartao_var3.html',
+              
+          ];
+      
+          function randomSite() {
+              var i = parseInt(Math.random() * sites.length);
+              location.href = sites[i];
+          }
+      </script>
+
+<head> 
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="css/rpg_template.css">  
+        <title> O poço dos Desejos</title>
+        <p>
+     
+              </p>
+       </head>
+       
+       <body>
+          <H1> </H1>
+          <img src="images/cenas/13.png"><br>
+   <p>
+      A porta está trancada.<br>
+      O lagarto levanta da cama e te ataca.<br>
+        
+   </p>
+   <a href="#" onclick="randomSite();">Atacar o Lagarto</a> 
+   
+</body>
+
+</html>

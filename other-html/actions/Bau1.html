@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+           <link rel="stylesheet" href="css/rpg_template.css">   
+        <title>Aventuras Fantásticas</title>
+        <p>
+         <a href="/other-html/mapas/mapa8.html" target="_blank">Abrir Mapa</a>
+         
+        <script>
+            var sites = [
+                'other-html/ataques/cocobra1.html',
+                'other-html/ataques/cocobra.html',
+                'other-html/ataques/bastao.html',
+            ];
+        
+            function randomSite() {
+                var i = parseInt(Math.random() * sites.length);
+                location.href = sites[i];
+            }
+        </script>
+</head>
+
+<body>
+   <H1> </H1>
+   <p>
+    Dentro da arca, tem o que parece ser um bastão?
+   </p>
+   <a href="#" onclick="randomSite();">Pegar Bastão</a>
+   
+</body>
+
+</html>

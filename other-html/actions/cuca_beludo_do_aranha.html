@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="css/rpg_template.css"> 
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+             
+        <title>Aventuras Fantásticas</title>
+        <p>
+                <a href="/other-html/mapas/mapa17.html" target="_blank">Abrir Mapa</a>
+            </p>
+                <script>
+                    var sites = [
+                        '/other-html/ataques/reiaranha/rei_aranha_var1.html',
+                        '/other-html/ataques/reiaranha/rei_aranha_var2.html',
+                        '/other-html/ataques/reiaranha/rei_aranha_var3.html',
+                        
+                    ];
+                
+                    function randomSite() {
+                        var i = parseInt(Math.random() * sites.length);
+                        location.href = sites[i];
+                    }
+              </script>
+       </head>
+       
+       <body>
+          <H1> </H1>
+          <img src="/images/cenas/17.png"><br>
+   <p>
+        Este aposento é prodigamente decorado com ricas cortinas.<br>
+         Pendendo de cada canto do teto existem teias douradas em formato de rede.<br>
+          Esta é a sala do trono do Rei Aranha!<br>
+        Sentado — ou, melhor dizendo, acocorado — no
+        canto mais distante do aposento, em um banco feito à
+        mão, está o Rei Aranha em pessoa:<br>
+         uma criatura feia e
+        corpulenta, com corpo de aranha e cabeça de homem.<br>
+
+        “Intruso imprudente”, grita ele. “Curve-se até o
+        chão diante do Rei Aranha!”<br>
+   </p>
+
+   <a href="/other-html/actions/curva_pra_o_aranha.html">Se curvar ao Rei Aranha</a><BR>
+    <a href="#" onclick="randomSite();">Atacar o Rei Aranha</a> <br>
+</body>
+
+</html>

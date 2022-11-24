@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+           <link rel="stylesheet" href="css/rpg_template.css">   
+        <title>Aventuras Fantásticas</title>
+
+        <script>
+                var sites = [
+                    '/other-html/ataques/mumia_ataque_var1.html',
+                    '/other-html/ataques/mumia_ataque_var2.html',
+                    '/other-html/ataques/mumia_ataque_var3.html',
+                ];
+            
+                function randomSite() {
+                    var i = parseInt(Math.random() * sites.length);
+                    location.href = sites[i];
+                }
+            </script>
+
+        <p>
+                <a href="/other-html/mapas/mapa6.html" target="_blank">Abrir Mapa</a>
+              
+              </p>
+               </head>
+               
+<body>
+                  <H1> </H1>
+                  <img src="images/cenas/6.png"><br>
+   <p>
+    A porta que dá para este aposento é feita de pedra, mas está destrancada.<br>
+     Depois da porta há um grande aposento.<br>
+      Sua lanterna ilumina estranhos hieróglifos (escrita em desenhos), que cobrem as paredes.<br>
+     No centro do aposento, sobre um altar de pedra, há um grande sarcófago de pedra.<br>
+     Ele está aberto e sua tampa está apoiada no altar.<br>
+     Quando você entra, uma forma emerge do sarcófago.<br>
+      E uma forma humana, envolta por bandagens, que se levanta do sarcófago e caminha na sua direção!<br>
+       Existe apenas uma porta neste aposento, que leva para leste.<br>
+   </p>
+
+   <a href="/other-html/aposentos/aposento7.html">Ir para a passagem da direita</a> <br>
+   <a href="#" onclick="randomSite();">Atacar a mumia</a> 
+   
+  <!-------passagem secreta------------->
+ <!---------  <a href="aposento9.html">Ir para a passagem da esquerda</a> ------>
+</body>
+
+</html>

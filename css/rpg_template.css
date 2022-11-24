@@ -1,0 +1,17 @@
+head {
+    background-color: black;
+    text-align:center;
+    color: cornsilk;
+}
+
+body {
+    background-color: black;
+    border-style: double;
+    border-color: gold;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    color: cornsilk;
+
+  
+}

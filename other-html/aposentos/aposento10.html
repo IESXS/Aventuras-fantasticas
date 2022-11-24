@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+           <link rel="stylesheet" href="css/rpg_template.css">   
+        <title>Aventuras Fantásticas</title>
+        <script>
+          var sites = [
+              'other-html/ataques/sereia1.html',
+              'other-html/ataques/sereia2.html',
+              'other-html/ataques/sereia3.html',
+          ];
+      
+          function randomSite() {
+              var i = parseInt(Math.random() * sites.length);
+              location.href = sites[i];
+          }
+      </script>
+        <p>
+          <a href="/other-html/mapas/mapa10.html" target="_blank">Abrir Mapa</a>
+         
+              </p>
+             
+       </head>
+       
+       <body>
+          <H1> </H1>
+          <img src="images/cenas/10.png"><br>
+          
+   <p>
+    A passagem eventualmente alcança um rio subterrâneo. e uma bifurcação.<br>
+conforme vocês se aproximam, podem ouvir uma bela voz cantando uma melodia triste.<BR>
+     Quando chegam à margem e olham rio abaixo, vocês podem ver uma garota estonteantemente bela, com longos cabelos louros,
+sentada em uma rocha no meio da correnteza, cantando.<br>
+Para alcançar o único caminho à frente, é preciso atravessar o rio a pé.<br>
+ No banco de areia mais adiante, há uma passagem indo na direção norte.<br>
+
+   </p>
+   <a href="#" onclick="randomSite();">Tentar atravessar o rio</a><br>
+  
+   <a href="/other-html/aposentos/aposento10.html">Voltar</a><br>
+   <a href="/other-html/aposentos/bifurcação.html">Ir para a bifurcação</a><br>
+</body>
+
+</html>
