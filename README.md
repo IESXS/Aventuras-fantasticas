@@ -1,9 +1,6 @@
 # Aventuras-fantasticas
 
 <h1 align="center">
-📄<br>README Template
-</h1>
-
 Aventuras fantasticas é um projeto em HTML, CSS e Javascript.
 
 sendo uma adaptação dos livros-jogos de Steve Jackson e Ian livingston
@@ -14,6 +11,7 @@ Este gênero, nasceu nos anos 1960-1970, tornou-se famoso em 1982 com O Feiticei
 primeiro livro da série Aventuras Fantásticas (Fighting Fantasy no original);
 que uniu o conceito dos livro-jogos ao dos RPGs, essa modalidade de livro-jogo é composto de aventuras que se pode jogar sozinho,
 uma alternativa aos jogos de RPG que exige um grupo de pessoas para jogar.
+</h1>
 
 <hr>
 
