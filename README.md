@@ -12,10 +12,9 @@ que uniu o conceito dos livro-jogos ao dos RPGs, essa modalidade de livro-jogo Ã
 uma alternativa aos jogos de RPG que exige um grupo de pessoas para jogar.
 
 <hr>
-https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
 
-https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-
-https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
-
+<image src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+<image src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+<image src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+<br> Play the game! <br>
 <a href=https://iesxs.itch.io/aventuras-fantasticas><image src="https://img.shields.io/badge/Itch.io-FA5C5C?style=for-the-badge&logo=itch.io&logoColor=white"></a>
